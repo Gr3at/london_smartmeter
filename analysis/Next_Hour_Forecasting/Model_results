@@ -1,0 +1,68 @@
+1)LSTM Network
+Parameters: Nadam, mean_squared_error | Test RMSE: 0.671 | Test R2: 0.919 | Model Time: 38.093
+
+2)Random Forest
+Parameters: n_trees = 500 n_features = auto max_depth = 14 | RMSE: 0.029 | R2: 0.967 | Model Time: 20.260
+5fold RF
+Parameters: 100 auto 13 | RMSE: 0.037 | R2: 0.965 | Model Time: 0.832
+Parameters: 100 auto 14 | RMSE: 0.044 | R2: 0.924 | Model Time: 1.600
+Parameters: 500 auto 14 | RMSE: 0.032 | R2: 0.961 | Model Time: 12.522
+Parameters: 500 auto 14 | RMSE: 0.027 | R2: 0.971 | Model Time: 16.547
+Parameters: 500 auto 14 | RMSE: 0.030 | R2: 0.965 | Model Time: 20.661
+
+3)Linear Regression
+5fold LR
+Parameters: True | RMSE: 0.062 | R2: 0.901 | Model Time: 0.001
+Parameters: True | RMSE: 0.056 | R2: 0.872 | Model Time: 0.002
+Parameters: True | RMSE: 0.059 | R2: 0.865 | Model Time: 0.002
+Parameters: True | RMSE: 0.058 | R2: 0.872 | Model Time: 0.002
+Parameters: False | RMSE: 0.062 | R2: 0.850 | Model Time: 0.002
+
+4)Decision Tree Regression
+Parameters: mae auto 7 | RMSE: 0.049 | R2: 0.938 | Model Time: 0.178
+Parameters: mae auto 7 | RMSE: 0.052 | R2: 0.892 | Model Time: 0.648
+Parameters: mae auto 11 | RMSE: 0.037 | R2: 0.945 | Model Time: 1.396
+Parameters: mae auto 11 | RMSE: 0.034 | R2: 0.955 | Model Time: 2.626
+Parameters: mse auto 9 | RMSE: 0.035 | R2: 0.953 | Model Time: 0.046
+
+5)KNN Regression
+Parameters: 10 brute distance | RMSE: 0.051 | R2: 0.932 | Model Time: 0.086
+Parameters: 3 brute distance | RMSE: 0.206 | R2: -0.697 | Model Time: 0.174
+Parameters: 10 auto distance | RMSE: 0.051 | R2: 0.899 | Model Time: 0.053
+Parameters: 10 auto distance | RMSE: 0.042 | R2: 0.931 | Model Time: 0.072
+Parameters: 20 auto distance | RMSE: 0.050 | R2: 0.903 | Model Time: 0.092
+
+6)KNN Radius Regression
+Parameters: 1 brute distance | RMSE: 0.128 | R2: 0.579 | Model Time: 0.284
+Parameters: 1 brute distance | RMSE: 0.210 | R2: -0.764 | Model Time: 0.365
+Parameters: 1 brute distance | RMSE: 0.163 | R2: -0.051 | Model Time: 0.443
+Parameters: 1 auto distance | RMSE: 0.150 | R2: 0.131 | Model Time: 1.351
+Parameters: 1 auto distance | RMSE: 0.149 | R2: 0.133 | Model Time: 1.552
+
+7)SVR Regression
+Parameters: rbf 1.5 1 | RMSE: 0.058 | R2: 0.914 | Model Time: 0.113
+Parameters: poly 1.5 2 | RMSE: 0.103 | R2: 0.572 | Model Time: 3.613
+Parameters: rbf 0.7 0.8 | RMSE: 0.052 | R2: 0.894 | Model Time: 0.508
+Parameters: rbf 1.5 0.8 | RMSE: 0.048 | R2: 0.911 | Model Time: 0.748
+Parameters: rbf 0.7 0.8 | RMSE: 0.051 | R2: 0.900 | Model Time: 0.923
+
+8)MLPR Regression
+Parameters: relu (24, 7, 52) lbfgs | RMSE: 0.042 | R2: 0.954 | Model Time: 0.794
+Parameters: tanh (6, 6, 6, 6) lbfgs | RMSE: 0.052 | R2: 0.894 | Model Time: 1.357
+Parameters: relu (24, 24) lbfgs | RMSE: 0.039 | R2: 0.941 | Model Time: 1.334
+Parameters: relu (24, 24) lbfgs | RMSE: 0.034 | R2: 0.955 | Model Time: 1.690
+Parameters: relu (24, 7, 52) lbfgs | RMSE: 0.038 | R2: 0.945 | Model Time: 3.853
+
+9)Arima Baseline Model
+Parameters: (1, 2, 0) | RMSE: 0.188 | R2: -0.386 | Model Time: 0.189
+Parameters: (2, 1, 0) | RMSE: 0.161 | R2: -0.016 | Model Time: 0.172
+Parameters: (3, 1, 0) | RMSE: 0.161 | R2: -0.014 | Model Time: 0.295
+Parameters: (4, 2, 0) | RMSE: 0.167 | R2: -0.096 | Model Time: 0.475
+Parameters: (6, 1, 0) | RMSE: 0.164 | R2: -0.064 | Model Time: 1.768
+Parameters: (3, 2, 0) | RMSE: 0.169 | R2: -0.118 | Model Time: 0.483
+Parameters: (1, 1, 1) | RMSE: 0.161 | R2: -0.024 | Model Time: 7.893
+Parameters: (2, 1, 1) | RMSE: 0.162 | R2: -0.037 | Model Time: 18.473
+Parameters: (3, 1, 1) | RMSE: 0.163 | R2: -0.043 | Model Time: 18.378
+Parameters: (4, 1, 1) | RMSE: 0.163 | R2: -0.044 | Model Time: 27.161
+
+
