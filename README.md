@@ -8,3 +8,10 @@ The studied algorithms are:
 * DECISION TREES
 * SUPPORT VECTOR MACHINES
 * MULTILAYER PERCEPTRON
+
+
+## Study Full Report
+The full report of this study can be found under the [report directory of this repo](https://github.com/Gr3at/london_smartmeter/blob/master/report/Electricity_Demand_Forecasting_based_on_Smart_Meter_Data.pdf)
+
+## Study Results Presentation
+A quick presentation on the study can be found under the ![presentation directory](http://github.com/Gr3at/london_smartmeter/blob/master/prsentation/Electricity_Demand_Forecasting_based_on_Smart_Meter_Data.pdf) of this repo.
